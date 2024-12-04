@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { Search } from 'lucide-react';
 import { useSearch } from '../context/SearchContext';
 
+
+// did some imporovement for the small devices and the tablets to ensure a smoot animation and design in the website
 export const Header: React.FC = () => {
   const { searchTerm, setSearchTerm } = useSearch();
   const [showMobileMenu, setShowMobileMenu] = useState(false);
