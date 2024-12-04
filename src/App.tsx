@@ -11,7 +11,7 @@ export default function App() {
   return (
     <Router>
       <SearchProvider>
-        <div className="min-h-screen bg-black">
+        <div className="min-h-screen bg-black px-4 sm:px-6 lg:px-8"> {/* Added padding here */}
           <Header />
           <main>
             <Routes>
